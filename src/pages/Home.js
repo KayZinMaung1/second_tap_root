@@ -1,8 +1,8 @@
+import Cover from '../components/Home/Cover'
+import Layout from '../components/Layout/Layout'
 const Home = () => {
     return ( 
-        <div className="home">
-            Home Page
-        </div>
+        <Layout children={<Cover/>}></Layout>
      );
 }
  
