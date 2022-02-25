@@ -1,0 +1,56 @@
+.container {
+    width: 1200px;
+    display: flex;
+    margin-top: 3px;
+    padding: 1rem 1rem;
+    position: relative;
+    background-color: #f2f2f2;
+  }
+
+  
+  .img {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .textcontainer {
+    flex: 3;
+    line-height: 2rem;
+    padding-left: 10px;
+  }
+
+  
+  .title {
+    font-size: x-large;
+    font-weight: bold;
+    
+    
+  }
+  .postingdate{
+    padding-bottom: 10px;
+  }
+  
+  .description {
+    font-size: medium;
+  }
+  
+  .seemore{
+    background-color: #1F3E07;
+    font-size: medium;
+    padding: 1rem 2rem;
+    color:#fff;
+    width: 200px;
+    margin-top: 20px;  
+  }
+  
+
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 100%;
+      padding: 1.8rem;
+      flex-direction: column;
+    }
+    
+  }
+  
