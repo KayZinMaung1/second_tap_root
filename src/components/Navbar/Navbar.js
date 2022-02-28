@@ -38,7 +38,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={styles.navitem}>
-                    <Link to="/courses/japan" className={styles.navlinks} onClick={closeMobileMenu}>
+                    <Link to="/aboutus" className={styles.navlinks} onClick={closeMobileMenu}>
                         About Us
                     </Link>
                 </li>

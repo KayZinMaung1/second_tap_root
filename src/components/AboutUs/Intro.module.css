@@ -1,6 +1,7 @@
 .container {
     width: 1200px;
     display: flex;
+    margin-top: 77px;
     padding: 1rem 1rem;
     position: relative;
     background-color: #f2f2f2;
@@ -16,29 +17,20 @@
   .textcontainer {
     flex: 3;
     line-height: 2rem;
-    padding-left: 10px;
+    
   }
 
   
   .title {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
-  }
-  .postingdate{
-    padding-bottom: 10px;
+    padding: 1.5rem 0 ; 
+    
   }
   
   .description {
-    font-size: medium;
-  }
-  
-  .seemore{
-    background-color: #1F3E07;
-    font-size: medium;
-    padding: 1rem 2rem;
-    color:#fff;
-    width: 200px;
-    margin-top: 20px; 
+    font-size: large;
+    padding-right: 5px;
   }
   
 
@@ -48,6 +40,8 @@
       padding: 1.8rem;
       flex-direction: column;
     }
+    .container :nth-child(1) { order: 2; }
+    .container :nth-child(2) { order: 1; }
     
   }
   

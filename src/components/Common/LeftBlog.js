@@ -18,7 +18,7 @@ const LeftBlog = (props) => {
                     </div>
                 </div>
                 <div>
-                    {<img src={image} alt="blog image" className={styles.img} />}
+                    <img src={image} alt="blog image" className={styles.img} />
                 </div>
                 
             </div>

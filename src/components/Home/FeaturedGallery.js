@@ -1,7 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import styles from "./FeaturedGallery.module.css";
 import Carousel from "react-elastic-carousel";
-import coverphoto from '../../images/coverphoto.jpg';
 import featuredphoto1 from '../../images/featuredphoto1.jpg';
 import featuredphoto2 from '../../images/featuredphoto2.jpg';
 import featuredphoto3 from '../../images/featuredphoto3.jpg';
