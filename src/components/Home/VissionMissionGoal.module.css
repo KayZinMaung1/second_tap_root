@@ -1,0 +1,45 @@
+.container {
+    width: 1200px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    padding: 1rem 1rem;
+ 
+  }
+  .title{
+    font-size: x-large;
+    font-weight: bold;
+    padding:10px 0;
+  }
+  .subtitle{
+    padding-bottom: 15px;
+  }
+  .subcontainer{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+  }
+  .imagecontainer{
+      position: relative;
+  }
+  .img {
+    width: 350px;
+    height: 350px;
+    filter: brightness(50%);
+  }
+  .text{
+    background-color: #fff;
+    font-size: medium;
+    padding: 1rem 3rem;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    text-align: center;
+    border-radius: 5%;
+    font-weight: bold;
+  }

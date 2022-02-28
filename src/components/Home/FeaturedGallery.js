@@ -2,6 +2,9 @@ import { useRef, useState, useEffect } from "react";
 import styles from "./FeaturedGallery.module.css";
 import Carousel from "react-elastic-carousel";
 import coverphoto from '../../images/coverphoto.jpg';
+import featuredphoto1 from '../../images/featuredphoto1.jpg';
+import featuredphoto2 from '../../images/featuredphoto2.jpg';
+import featuredphoto3 from '../../images/featuredphoto3.jpg';
 
 function FeaturedGallery() {
   let resetTimeout;
@@ -45,22 +48,22 @@ function FeaturedGallery() {
         }}
       >
         <div className={styles.imagecontainer}>
-          <img src={coverphoto} alt="coverphoto" className={styles.photo}  />
+          <img src={featuredphoto1} alt="featuredphoto" className={styles.photo}/>
         </div>
         <div className={styles.imagecontainer}>
-            <img src={coverphoto} alt="coverphoto" className={styles.photo} />
+            <img src={featuredphoto2} alt="featuredphoto" className={styles.photo}/>
         </div>
         <div className={styles.imagecontainer}>
-          <img src={coverphoto} alt="coverphoto" className={styles.photo}  />
+          <img src={featuredphoto3} alt="featuredphoto" className={styles.photo}/>
         </div>
         <div className={styles.imagecontainer}>
-          <img src={coverphoto} alt="coverphoto" className={styles.photo}  />
+          <img src={featuredphoto1} alt="featuredphoto" className={styles.photo}/>
         </div>
         <div className={styles.imagecontainer}>
-          <img src={coverphoto} alt="coverphoto" className={styles.photo} />
+          <img src={featuredphoto2} alt="featuredphoto" className={styles.photo}/>
         </div>
         <div className={styles.imagecontainer}>
-          <img src={coverphoto} alt="coverphoto" className={styles.photo}  />
+          <img src={featuredphoto3} alt="featuredphoto" className={styles.photo}/>
         </div>
       </Carousel>
     </div>
