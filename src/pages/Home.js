@@ -4,6 +4,7 @@ import FeaturedBlogs from '../components/Home/FeaturedBlogs';
 import Motto from '../components/Home/Motto';
 import FeaturedGallery from '../components/Home/FeaturedGallery';
 import VissionMissionGoal from '../components/Home/VissionMissionGoal';
+import Footer from '../components/Footer/Footer';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <FeaturedBlogs/>
             <FeaturedGallery/>
             <VissionMissionGoal/>
+            <Footer/>
         </Fragment >
      );
 }
