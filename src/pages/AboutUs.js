@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import CoreValuesSection from '../components/AboutUs/CoreValuesSection';
 import Intro from '../components/AboutUs/Intro';
 import VMGBlogs from '../components/AboutUs/VMGBlogs';
 
@@ -7,6 +8,7 @@ const AboutUs = () => {
         <Fragment>
             <Intro/>
             <VMGBlogs/>
+            <CoreValuesSection/>
         </Fragment >
      );
 }

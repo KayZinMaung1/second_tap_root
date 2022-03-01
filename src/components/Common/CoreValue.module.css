@@ -1,0 +1,49 @@
+.container {
+    width: 1200px;
+    display: flex;
+    margin-top: 3px;
+    padding: 1rem 1rem;
+    position: relative;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .textcontainer {
+    justify-items: center;
+    line-height: 2rem;
+    padding:15px 0;
+  }
+  .subcontainer{
+    display: flex;
+}
+.corevaluecontainer{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    border:1px solid black;
+    margin: 20px 15px;
+    padding: 1rem;
+}
+.corevalueicon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:1px solid rgba(61, 59, 59, 0.76)
+  }
+  .corevaluetitle{
+      font-size: small;
+      font-weight: 600;
+      padding:5px
+  }
+  .description{
+      font-size: small;
+      justify-content: left;
+  }

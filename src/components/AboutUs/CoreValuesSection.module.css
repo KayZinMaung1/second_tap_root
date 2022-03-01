@@ -1,0 +1,22 @@
+.container {
+    width: 1200px;
+    display: flex;
+    margin-top: 3px;
+    padding: 1rem 1rem;
+    position: relative;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .textcontainer {
+    justify-items: center;
+    line-height: 2rem;
+    padding:15px 0;
+  }
+  .subcontainer{
+    display: flex;
+}
