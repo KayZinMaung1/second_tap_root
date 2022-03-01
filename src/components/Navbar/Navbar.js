@@ -43,17 +43,17 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className={styles.navitem}>
-                    <Link to="/courses/it" className={styles.navlinks} onClick={closeMobileMenu}>
+                    <Link to="/blogs" className={styles.navlinks} onClick={closeMobileMenu}>
                         Blogs
                     </Link>
                 </li>
                 <li className={styles.navitem}>
-                    <Link to="/news" className={styles.navlinks} onClick={closeMobileMenu}>
+                    <Link to="/gallery" className={styles.navlinks} onClick={closeMobileMenu}>
                         Gallery
                     </Link>
                 </li>
                 <li className={styles.navitem}>
-                    <Link to="/about" className={styles.navlinks} onClick={closeMobileMenu}>
+                    <Link to="/contactus" className={styles.navlinks} onClick={closeMobileMenu}>
                         Contact Us
                     </Link>
                 </li>

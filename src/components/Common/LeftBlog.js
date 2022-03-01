@@ -6,9 +6,8 @@ const LeftBlog = (props) => {
     const description = props.description;
     const image = props.image;
     return ( 
-        <div className="blog">
+       
             <div className={styles.container}>
-
                 <div className={styles.textcontainer}>
                     <p className={styles.title}>{title}</p>
                     <p className={styles.postingdate}>{postingdate}</p>
@@ -20,9 +19,7 @@ const LeftBlog = (props) => {
                 <div>
                     <img src={image} alt="blog image" className={styles.img} />
                 </div>
-                
             </div>
-        </div>   
        
      );
 }
