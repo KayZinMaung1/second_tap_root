@@ -1,0 +1,33 @@
+.container {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    position: relative;
+    background-color: #f2f2f2;
+}
+.title {
+    font-size: x-large;
+    font-weight: bold;
+}
+.subcontainer{
+    display: flex;
+}
+.blogcontainer{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+}
+.img {
+    width:100%;
+    height: 250px;
+  }
+  .subtitle {
+    font-size: medium;
+    font-weight: bold;
+    padding:10px 0;
+  }
+  .postingdate{
+    padding-bottom: 10px;
+  }
