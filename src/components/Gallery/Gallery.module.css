@@ -1,0 +1,47 @@
+.container {
+    background-color: white;
+    width: 1200px;
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 4rem;
+  }
+  
+  .container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cardcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 1rem;
+  }
+  
+  .textcontainer {
+    width: 500px;
+    padding: 13px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 675px) {
+    .textcontainer {
+      width: 100%;
+      font-size: small;
+    }
+  }
+  

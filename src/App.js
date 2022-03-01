@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Blogs from './pages/Blogs';
 import BlogDetails from './pages/BlogDetails';
+import GalleryPage from './pages/GalleryPage';
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/blogs" element={<Blogs />} />
-          <Route path="/blogdetails" element={<BlogDetails />} />
+          <Route path="/gallery" element={<GalleryPage />} />
+
+          {/* <Route path="/blogdetails" element={<BlogDetails />} /> */}
+          
         </Routes>
         <Footer/>
       </div>
