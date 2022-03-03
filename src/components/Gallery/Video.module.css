@@ -1,0 +1,17 @@
+.container {
+    background-color: white;
+    width: 1200px;
+    margin-top: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 4rem;
+  }
+   
+  .container h2 {
+      margin-bottom: 20px;
+    }
+    
+    
+    

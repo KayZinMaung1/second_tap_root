@@ -4,6 +4,7 @@ import FeaturedBlogs from '../components/Home/FeaturedBlogs';
 import Motto from '../components/Home/Motto';
 import FeaturedGallery from '../components/Home/FeaturedGallery';
 import VisionMissionGoal from '../components/Home/VisionMissionGoal';
+import FeaturedVideo from '../components/Home/FeaturedVideo';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Motto/>
             <FeaturedBlogs/>
             <FeaturedGallery/>
+            <FeaturedVideo/>
             <VisionMissionGoal/>
         </Fragment >
      );

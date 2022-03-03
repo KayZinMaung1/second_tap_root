@@ -1,0 +1,38 @@
+.container {
+  width: 1200px;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+  position: relative;
+ }
+.contactuscontainer{
+  background-color: #F3F3F3;
+  margin: 5rem 10rem;
+  flex-direction: column;
+  padding:2rem;
+}
+.title {
+  font-size: x-large;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.subcontainer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.textcontainer {
+  line-height: 1rem;
+  width:auto;
+}
+
+.contact {
+  display: flex;
+  color: black;
+  font-size: medium;
+  font-weight: 500;
+  padding: 1rem 0;
+}
+.contacttext{
+  padding:0 0.5rem;
+}
