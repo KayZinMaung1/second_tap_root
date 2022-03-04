@@ -6,13 +6,9 @@ import Carousel from "react-elastic-carousel";
 import { Player } from 'video-react'; 
 import "video-react/dist/video-react.css"; 
 
-import featuredphoto1 from '../../images/featuredphoto1.jpg';
-import featuredphoto2 from '../../images/featuredphoto2.jpg';
-import featuredphoto3 from '../../images/featuredphoto3.jpg';
-
 
 function FeaturedVideo() {
-  let resetTimeout;
+
   const carouselRef = useRef(null);
 
   const [totalPages, setTotalPages] = useState(0);
@@ -37,33 +33,51 @@ function FeaturedVideo() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.title}>PHOTOS</div>
+      <div className={styles.title}>VIDEOS</div>
       <Carousel
         breakPoints={breakPoints}
         ref={carouselRef}
       >
         <div className={styles.imagecontainer}>
-                <Player
+          <Player
             playsInline
             poster="/assets/poster.png"
             src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-            />
-           { console.log("player")}
+          />
+          
         </div>
         <div className={styles.imagecontainer}>
-            <img src={featuredphoto2} alt="featuredphoto" className={styles.photo}/>
+          <Player
+            playsInline
+            poster="/assets/poster.png"
+            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+          />
         </div>
         <div className={styles.imagecontainer}>
-          <img src={featuredphoto3} alt="featuredphoto" className={styles.photo}/>
+          <Player
+            playsInline
+            poster="/assets/poster.png"
+            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+          />
         </div>
         <div className={styles.imagecontainer}>
-          <img src={featuredphoto1} alt="featuredphoto" className={styles.photo}/>
+          <Player
+            playsInline
+            poster="/assets/poster.png"
+            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+          />
         </div>
+          <Player
+            playsInline
+            poster="/assets/poster.png"
+            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+          />
         <div className={styles.imagecontainer}>
-          <img src={featuredphoto2} alt="featuredphoto" className={styles.photo}/>
-        </div>
-        <div className={styles.imagecontainer}>
-          <img src={featuredphoto3} alt="featuredphoto" className={styles.photo}/>
+          <Player
+            playsInline
+            poster="/assets/poster.png"
+            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+          />
         </div>
       </Carousel>
     </div>

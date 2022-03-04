@@ -1,9 +1,6 @@
 .container {
-    width: 1200px;
     display: flex;
     flex-direction: column;
-    margin-top: 77px;
-    padding: 1rem;
+    margin-top: 132px;
     position: relative;
-    background-color: #f2f2f2;
   }

@@ -9,20 +9,18 @@
     margin-top: 3px;
     padding: 1rem;
   }
-  
   .imagecontainer {
     position: relative;
+    height: 300px;
+    width: 500px;
+    padding: 10px 20px;
   }
   .title{
     font-size: x-large;
     font-weight: bold;
     padding:10px 0;
   }
-  .photo{
-    height: 300px;
-    width: 500px;
-    padding: 10px 20px;
-  }
+ 
   @media screen and (max-width: 1200px) {
     .container {
       width: 100%;

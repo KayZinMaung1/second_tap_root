@@ -1,13 +1,10 @@
 import styles from './LeftBlog.module.css';
 
-const LeftBlog = (props) => {
-    const title = props.title;
-    const postingdate = props.postingdate;
-    const description = props.description;
-    const image = props.image;
+const LeftBlog = ({ title, postingdate, description, image, marginTop }) => {
+
     return ( 
        
-            <div className={styles.container}>
+            <div className={styles.container} style={{ marginTop: marginTop }}>
                 <div className={styles.textcontainer}>
                     <p className={styles.title}>{title}</p>
                     <p className={styles.postingdate}>{postingdate}</p>
