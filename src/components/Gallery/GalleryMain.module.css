@@ -19,8 +19,14 @@
     width: 100%;
     justify-content: center;
   }
-  .secondtitle{
-    color:#969595;
+ 
+  .title{
+    text-decoration: none;
+    color:#969595
+  }
+
+  .active{
+    color:black
   }
   
   @media screen and (max-width: 1200px) {
