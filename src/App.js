@@ -8,11 +8,13 @@ import Blogs from './pages/Blogs';
 import BlogDetails from './pages/BlogDetails';
 import GalleryPage from './pages/GalleryPage';
 import ContactUs from './pages/ContactUs';
+import UpBar from './components/UpBar/UpBar';
 
 function App() {
   return (
     <Router>
-      <div className="container">
+      <div className='container'>
+        <UpBar/>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

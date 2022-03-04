@@ -31,7 +31,6 @@ const Navbar = () => {
                     click ? [styles.navmenu, styles.active].join(" ") : styles.navmenu
                 }
             >
-
                 <li className={styles.navitem}>
                     <Link to="/" className={styles.navlinks} onClick={closeMobileMenu}>
                         Home

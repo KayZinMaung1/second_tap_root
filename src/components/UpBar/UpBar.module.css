@@ -1,0 +1,35 @@
+.container {
+    width: 1200px;
+    display: flex;
+    padding: 1rem 1rem;
+    background-color: #284511;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+  }
+.blockcontainer{
+    display: block;
+  }
+.subcontainer{
+      display: flex;
+  }
+.icon{
+    padding:0 0.5rem;
+    font-size: 1rem;
+    color:#fff;
+}
+.text{
+    font-size: small;
+    color:#fff;
+}
+.sperator{
+    padding-left: 1rem;
+    font-size: small;
+    color:#fff;
+}
+.brandicon{
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    color:#fff;
+}

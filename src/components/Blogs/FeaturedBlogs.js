@@ -5,7 +5,7 @@ import RightBlog from "../Common/RightBlog";
 
 const FeaturedBlogs = () => {
     return ( 
-        <div className={styles.container}>
+        <div >
             <LeftBlog 
                     title ='ကလေးများဘ၀ပြည့်စုံရေး  လက်တွဲရင်းနှီးမြှပ်နှံပေး'
                     postingdate = '22/02/2022'
