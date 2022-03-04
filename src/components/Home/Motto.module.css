@@ -12,3 +12,14 @@
 .motto{
     font-size: 20px;
 }
+@media screen and (max-width: 1200px) {
+    .container {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 820px) {
+.motto{
+    font-size: 18px;
+}
+
+}

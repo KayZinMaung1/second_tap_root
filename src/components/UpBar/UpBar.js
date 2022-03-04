@@ -6,6 +6,7 @@ import { faFacebookSquare,faTelegram,faViber} from "@fortawesome/free-brands-svg
 const UpBar = () => {
     return ( 
         <div className={styles.container}>
+            
             <div className={styles.subcontainer}>
                 <div className={styles.subcontainer}>
                    <FontAwesomeIcon icon={faEnvelope} className={styles.icon}/>

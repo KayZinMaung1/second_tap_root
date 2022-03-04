@@ -8,9 +8,7 @@
     position: fixed;
     z-index: 1000;
   }
-.blockcontainer{
-    display: block;
-  }
+
 .subcontainer{
       display: flex;
   }
@@ -32,4 +30,41 @@
     padding: 0 1rem;
     font-size: 1.5rem;
     color:#fff;
+}
+@media screen and (max-width: 1200px) {
+    .container {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 570px) {
+  
+    .sperator{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .text{
+        font-size: small;
+        color:#fff;
+        padding:0 0.5rem;
+    }
+    .brandicon{
+        padding: 0 0.5rem;
+        font-size: 1rem;
+        color:#fff;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .text{
+        font-size: 0.5rem;
+        color:#fff;
+        padding:0 0.5rem;
+    }
+    .brandicon{
+        padding: 0 0.5rem;
+        font-size: 0.5rem;
+        color:#fff;
+    }
 }

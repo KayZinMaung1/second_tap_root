@@ -43,3 +43,8 @@
     left: 300%;
     top: 25%;
 }
+@media screen and (max-width: 1200px) {
+    .footer {
+      width: 100%;
+    }
+  }
