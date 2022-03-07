@@ -14,9 +14,9 @@ function App() {
   return (
     <Router>
       <div className='container'>
-        {/* <UpBar/> */}
-        <Navbar />
-        {/* <Routes>
+        {/* <UpBar/>
+        <Navbar /> */}
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/blogs" element={<Blogs />} />
@@ -26,7 +26,7 @@ function App() {
           <Route path="/blogdetails" element={<BlogDetails />} />
           
         </Routes>
-        <Footer/> */}
+        {/* <Footer/> */}
       </div>
     </Router>
   );
