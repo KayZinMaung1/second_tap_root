@@ -50,6 +50,13 @@
     }
     
   }
+  
+  @media screen and (max-width: 820px) {
+    .title{
+      font-size: large;
+    }
+    
+  }
   @media screen and (max-width: 600px) {
     .img {
       border-radius: 10px;

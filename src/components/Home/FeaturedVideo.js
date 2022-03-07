@@ -38,7 +38,7 @@ function FeaturedVideo() {
         breakPoints={breakPoints}
         ref={carouselRef}
       >
-        <div className={styles.imagecontainer}>
+        <div className={styles.videocontainer}>
           <Player
             playsInline
             poster="/assets/poster.png"
@@ -46,21 +46,21 @@ function FeaturedVideo() {
           />
           
         </div>
-        <div className={styles.imagecontainer}>
+        <div className={styles.videocontainer}>
           <Player
             playsInline
             poster="/assets/poster.png"
             src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
           />
         </div>
-        <div className={styles.imagecontainer}>
+        <div className={styles.videocontainer}>
           <Player
             playsInline
             poster="/assets/poster.png"
             src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
           />
         </div>
-        <div className={styles.imagecontainer}>
+        <div className={styles.videocontainer}>
           <Player
             playsInline
             poster="/assets/poster.png"
@@ -72,7 +72,7 @@ function FeaturedVideo() {
             poster="/assets/poster.png"
             src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
           />
-        <div className={styles.imagecontainer}>
+        <div className={styles.videocontainer}>
           <Player
             playsInline
             poster="/assets/poster.png"

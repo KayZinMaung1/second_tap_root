@@ -55,6 +55,11 @@
     .container :nth-child(2) { order: 1; }
 
   }
+  @media screen and (max-width: 1200px) {
+   .title{
+     font-size: large;
+   }
+  }
   
   @media screen and (max-width: 600px) {
     .img {

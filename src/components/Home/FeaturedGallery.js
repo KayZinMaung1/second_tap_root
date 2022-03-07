@@ -46,24 +46,24 @@ function FeaturedGallery() {
           }
         }}
       >
-        <div className={styles.imagecontainer}>
+        
           <img src={featuredphoto1} alt="featuredphoto" className={styles.photo}/>
-        </div>
-        <div className={styles.imagecontainer}>
+       
+       
             <img src={featuredphoto2} alt="featuredphoto" className={styles.photo}/>
-        </div>
-        <div className={styles.imagecontainer}>
+        
+        
           <img src={featuredphoto3} alt="featuredphoto" className={styles.photo}/>
-        </div>
-        <div className={styles.imagecontainer}>
+       
+       
           <img src={featuredphoto1} alt="featuredphoto" className={styles.photo}/>
-        </div>
-        <div className={styles.imagecontainer}>
+       
+      
           <img src={featuredphoto2} alt="featuredphoto" className={styles.photo}/>
-        </div>
-        <div className={styles.imagecontainer}>
+       
+        
           <img src={featuredphoto3} alt="featuredphoto" className={styles.photo}/>
-        </div>
+        
       </Carousel>
     </div>
   ); 

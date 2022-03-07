@@ -37,14 +37,31 @@
     border-radius: px;
     font-size: 1rem;
     color: black;
-    padding: 1px 5px;
+    padding: 0.3rem ;
     border-radius: 2px;
-    position: absolute;
-    left: 300%;
-    top: 25%;
+    margin-left: 2rem;
+    margin-top:0.3rem;
 }
 @media screen and (max-width: 1200px) {
     .footer {
       width: 100%;
+    }
+    
+  }
+  @media screen and (max-width: 600px) {
+    .icon{
+        padding:0 1rem;
+        font-size: 1.5rem;
+        color:#fff;
+    }
+    .link{
+        padding:0.5rem 1rem;
+        font-size: small;
+    }
+    .line{
+        width:90%;
+    }
+    .upicon{
+        margin-left: 1rem;
     }
   }

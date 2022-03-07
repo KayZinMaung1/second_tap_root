@@ -17,7 +17,7 @@ const Footer = () => {
             <div className={styles.subcontainer}>
                 <div className={styles.text}>All Rights Reserved by Second Tap Root</div>
                 <div className={styles.upicon}><i className="fa-solid fa-angle-up"></i></div>
-                </div>
+            </div>
         </footer>
      );
 }

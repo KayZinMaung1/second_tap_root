@@ -13,8 +13,8 @@ const Home = () => {
             <Motto/>
             <FeaturedBlogs/>
             <FeaturedGallery/>
-            {/* <FeaturedVideo/>
-            <VisionMissionGoal/> */}
+            <FeaturedVideo/>
+            <VisionMissionGoal/>
         </Fragment >
      );
 }
