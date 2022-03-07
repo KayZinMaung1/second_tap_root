@@ -11,8 +11,8 @@ const Home = () => {
         <Fragment>
             <Cover />
             <Motto/>
-            {/* <FeaturedBlogs/>
-            <FeaturedGallery/>
+            <FeaturedBlogs/>
+            {/* <FeaturedGallery/>
             <FeaturedVideo/>
             <VisionMissionGoal/> */}
         </Fragment >

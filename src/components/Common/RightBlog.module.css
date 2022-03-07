@@ -50,4 +50,31 @@
     }
     
   }
+  @media screen and (max-width: 600px) {
+    .img {
+      border-radius: 10px;
+      width: 200px;
+      height: 200px;
+    }
+    
+    .title {
+      font-size: large;
+      font-weight: bold;
+    }
+    .postingdate{
+      padding-bottom: 8px;
+    }
+    
+    .description {
+      font-size: small;
+      
+    }
+  
+    .seemore{
+      font-size: small;
+      width: 120px;
+      padding: 0.5rem 0.5rem;
+    }
+    
+  }
   
