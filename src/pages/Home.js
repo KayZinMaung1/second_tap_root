@@ -10,8 +10,8 @@ const Home = () => {
     return (
         <Fragment>
             <Cover />
-            {/* <Motto/>
-            <FeaturedBlogs/>
+            <Motto/>
+            {/* <FeaturedBlogs/>
             <FeaturedGallery/>
             <FeaturedVideo/>
             <VisionMissionGoal/> */}
