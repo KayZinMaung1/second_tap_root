@@ -1,77 +1,85 @@
 .container {
-    margin-top: 132px;
     position: relative;
-  }
-.subcontainer{
+}
+
+.subcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 35%;
 }
+
 .covertext {
-    color:#fff;
+    color: #fff;
     font-size: 35px;
 }
-.subcovertext{
-    color:#fff;
+
+.subcovertext {
+    color: #fff;
     font-size: 25px;
 }
-.coverphoto{
+
+.coverphoto {
     filter: brightness(50%);
-    width:1200px;
-    height: 624px;
+    width: 1200px;
+    height: 620px;
 }
-.logo{
+
+.logo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 1200px) {
+    .coverphoto {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 820px) {
     .container {
-      width: 100%;
+       margin-top:137px;
     }
-    .coverphoto{
-        width:100%;
+    
+    .coverphoto {
         height: 480px;
     }
+
     .covertext {
         font-size: 30px;
     }
-    .subcovertext{
+
+    .subcovertext {
         font-size: 20px;
     }
-    .logo{
+
+    .logo {
         width: 80px;
         height: 80px;
     }
-    .subcontainer{
+
+    .subcontainer {
         left: 30%;
     }
-    @media screen and (max-width: 600px) {
-        .coverphoto{
-            height: 380px;
-        }
-        .subcontainer{
-            top:30%;
-            left: 25%;
-        }
+}
+@media screen and (max-width: 520px) {
+    .covertext {
+        font-size: 20px;
     }
-    @media screen and (max-width: 450px) {
-        .covertext {
-            font-size: 20px;
-        }
-        .subcovertext{
-            font-size: 12px;
-        }
-        .logo{
-            width: 50px;
-            height: 50px;
-        }
-        .coverphoto{
-            height: 250px;
-        }
+
+    .subcovertext {
+        font-size: 12px;
     }
-    
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .coverphoto {
+        height: 250px;
+    }
 }

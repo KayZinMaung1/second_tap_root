@@ -27,4 +27,20 @@
       width: 100%;
     }
   }
+  @media screen and (max-width: 600px) {
+    .photo{
+      height: 200px;
+      width: 300px;
+    }
+    .title{
+      font-size: large;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .photo{
+      height: 180px;
+      width: 250px;
+    }
+   
+  }
   
