@@ -1,12 +1,11 @@
 
 .container {
     width: 1200px;
-    background-color: #f2f2f2;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3px;
     padding: 1rem;
   }
   .videocontainer {

@@ -2,12 +2,11 @@
     padding:35px;
     width: 1200px;
     display: flex;
-    margin-top: 3px;
     position: relative;
     justify-items: center;
     align-items: center;
     flex-direction: column;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 .motto{
     font-size: 20px;
