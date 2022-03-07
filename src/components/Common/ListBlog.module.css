@@ -2,7 +2,7 @@
     width: 1200px;
     display: flex;
     flex-direction: column;
-    padding: 1rem 1rem;
+    padding: 1rem ;
     position: relative;
     background-color: #f2f2f2;
   }
@@ -41,6 +41,41 @@
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+  }
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 820px) {
+    .title {
+      font-size: large;
+    }
+    .textcontainer {
+      line-height: 1.5rem;
+    }
+    .img {
+      width: 200px;
+      height: 200px;
+    }
+    .subcontainer{
+      flex-direction: column;
+  }
+  }
+  @media screen and (max-width: 420px) {
+  .container{
+    padding:0.5rem;
+  }
+  .textcontainer {
+    line-height: 1rem;
+  }
+  .textcontainer ul li {
+    font-size: small;
+  }
+  .img {
+    width: 150px;
+    height: 150px;
+  }
   }
   
   
