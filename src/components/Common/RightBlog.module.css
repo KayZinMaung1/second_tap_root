@@ -45,7 +45,6 @@
   @media screen and (max-width: 1200px) {
     .container {
       width: 100%;
-      padding: 1.8rem;
       flex-direction: column;
     }
     
@@ -55,9 +54,13 @@
     .title{
       font-size: large;
     }
-    
+    .seemore{
+      width: 145px;
+      padding: 0.5rem 0.5rem;
+    }
+
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 420px) {
     .img {
       border-radius: 10px;
       width: 200px;
@@ -65,7 +68,6 @@
     }
     
     .title {
-      font-size: large;
       font-weight: bold;
     }
     .postingdate{
@@ -74,14 +76,10 @@
     
     .description {
       font-size: small;
-      
     }
   
     .seemore{
       font-size: small;
       width: 120px;
-      padding: 0.5rem 0.5rem;
     }
-    
   }
-  

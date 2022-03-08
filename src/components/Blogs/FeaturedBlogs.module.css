@@ -3,4 +3,10 @@
     flex-direction: column;
     margin-top: 132px;
     position: relative;
+    background-color: #fff;
+  }
+  @media screen and (max-width: 530px) {
+    .container{
+      margin-top: 160px;
+    }
   }
