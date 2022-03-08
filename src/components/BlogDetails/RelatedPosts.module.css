@@ -62,5 +62,11 @@
       align-items: flex-start;
       padding: 1rem 0;
     }
+    .subtitle{
+      padding-bottom:0;
+    }
+    .postingdate{
+      font-size: small;
+    }
 
   }
