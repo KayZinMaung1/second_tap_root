@@ -3,7 +3,6 @@
   background-color: #fff;
   justify-content: center;
   align-items: center;
-  margin-top: 3px;
   position: relative;
  }
 .contactuscontainer{
@@ -20,11 +19,12 @@
 .subcontainer{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .textcontainer {
   line-height: 1rem;
   width:auto;
-}
+}                    
 
 .contact {
   display: flex;
@@ -35,4 +35,34 @@
 }
 .contacttext{
   padding:0 0.5rem;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+      width: 100%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .title{
+    font-size: large;
+  }
+  .contact{
+    padding:0.8rem 0;
+  }
+  .contactuscontainer{
+    margin: 5rem ;
+  }
+  
+}
+@media screen and (max-width: 420px) {
+ .contact{
+   font-size: small;
+   padding:0.5rem 0;
+ }
+ .subcontainer{
+  justify-content: flex-start;
+}
+.contactuscontainer{
+  margin: 1rem 4rem ;
+}
+
 }
