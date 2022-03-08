@@ -11,8 +11,8 @@ const AboutUs = () => {
             <Intro/>
             <VMGBlogs/>
             <CoreValuesSection/>
-            {/* <Process/>
-            <Policy/> */}
+            <Process/>
+            <Policy/>
         </Fragment >
      );
 }

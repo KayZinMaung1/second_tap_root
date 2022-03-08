@@ -17,7 +17,6 @@
   .textcontainer ul li {
     font-size: medium;
     padding: 1rem 0;
-    
   }
   
   .textcontainer ul {
@@ -32,5 +31,25 @@
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+  }
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 100%;
+    }
+    .textcontainer {
+      line-height: 1.5rem;
+    }
+  }
+  @media screen and (max-width: 820px) {
+    .title {
+      font-size:large;
+  }
+  }
+  @media screen and (max-width: 420px) {
+    .textcontainer ul li {
+      font-size: small;
+      padding: 0.5rem 0;
+    }
+
   }
   

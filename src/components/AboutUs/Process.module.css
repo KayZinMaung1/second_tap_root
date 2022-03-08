@@ -13,14 +13,13 @@
     font-weight: bold;
   }
   .textcontainer {
-    line-height: 1rem;
+    line-height: 1.5rem;
     width:50%;
   }
 
   .textcontainer ul li {
     font-size: medium;
     padding: 1rem 0;
-    
   }
   
   .textcontainer ul {
@@ -35,4 +34,30 @@
     width:10px;
     height:10px;
     margin-right: 1rem; 
+  }
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 100%;
+    }
+    .textcontainer{
+      width: 80%;
+    }
+  }
+  @media screen and (max-width: 820px) {
+    .title {
+      font-size: large;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .textcontainer{
+      width: 100%;
+    }
+    .textcontainer ul li {
+      font-size: small;
+      padding: 0.5rem 0;
+    }
+    .textcontainer ul li::before {
+      width:5px;
+      height:5px;
+    }
   }
