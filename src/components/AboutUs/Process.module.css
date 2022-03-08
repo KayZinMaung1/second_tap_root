@@ -2,10 +2,10 @@
     width: 1200px;
     display: flex;
     flex-direction: column;
-    margin-top: 3px;
+    margin-top: 1px;
     padding: 1rem;
     position: relative;
-    background-color: #f2f2f2;
+    background-color: #fff;
     align-items: center;
   }
   .title {
@@ -59,5 +59,8 @@
     .textcontainer ul li::before {
       width:5px;
       height:5px;
+    }
+    .textcontainer ul li::before {
+      margin-right: 0.5rem; 
     }
   }

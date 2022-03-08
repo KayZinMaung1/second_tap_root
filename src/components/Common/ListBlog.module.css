@@ -4,7 +4,7 @@
     flex-direction: column;
     padding: 1rem ;
     position: relative;
-    background-color: #f2f2f2;
+    background-color: #fff;
   }
   .title {
     font-size: x-large;
@@ -66,9 +66,7 @@
   .container{
     padding:0.5rem;
   }
-  .textcontainer {
-    line-height: 1rem;
-  }
+
   .textcontainer ul li {
     font-size: small;
   }
@@ -76,6 +74,7 @@
     width: 150px;
     height: 150px;
   }
+
   }
   
   
