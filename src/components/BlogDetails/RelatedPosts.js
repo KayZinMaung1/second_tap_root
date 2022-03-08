@@ -1,5 +1,5 @@
 import styles from './RelatedPosts.module.css';
-import blogimage1 from '../../images/blogimage1.jpg';
+import featuredphoto1 from '../../images/featuredphoto1.jpg';
 
 const RelatedPosts = () => {
     return ( 
@@ -8,7 +8,7 @@ const RelatedPosts = () => {
             <div className={styles.subcontainer}>
                 <div className={styles.blogcontainer}>
                     <img
-                        src={blogimage1}
+                        src={featuredphoto1}
                         alt="core value"
                         className={styles.img}
                     />
@@ -17,7 +17,7 @@ const RelatedPosts = () => {
                 </div>
                 <div className={styles.blogcontainer}>
                     <img
-                        src={blogimage1}
+                        src={featuredphoto1}
                         alt="core value"
                         className={styles.img}
                     />
@@ -26,7 +26,7 @@ const RelatedPosts = () => {
                 </div>
                 <div className={styles.blogcontainer}>
                     <img
-                        src={blogimage1}
+                        src={featuredphoto1}
                         alt="core value"
                         className={styles.img}
                     />

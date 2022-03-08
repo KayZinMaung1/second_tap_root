@@ -1,9 +1,9 @@
 import styles from './Blog.module.css';
-import blogimage1 from '../../images/blogimage1.jpg';
+import featuredphoto1 from '../../images/featuredphoto1.jpg';
 const Blog = () => {
     return ( 
         <div className={styles.container}>
-           <img src={blogimage1} alt="image" className={styles.img} />
+           <img src={featuredphoto1} alt="image" className={styles.img} />
            <div className={styles.textcontainer}>
                 <p className={styles.title}>ကလေးများဘ၀ပြည့်စုံရေး  လက်တွဲရင်းနှီးမြှပ်နှံပေး</p>
                 <p className={styles.postingdate}>22/02/2022</p>
