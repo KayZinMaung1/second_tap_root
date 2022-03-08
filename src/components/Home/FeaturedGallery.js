@@ -50,7 +50,7 @@ function FeaturedGallery() {
           <img src={featuredphoto1} alt="featuredphoto" className={styles.photo}/>
        
        
-            <img src={featuredphoto2} alt="featuredphoto" className={styles.photo}/>
+          <img src={featuredphoto2} alt="featuredphoto" className={styles.photo}/>
         
         
           <img src={featuredphoto3} alt="featuredphoto" className={styles.photo}/>

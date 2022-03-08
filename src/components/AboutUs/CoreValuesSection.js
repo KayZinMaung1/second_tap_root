@@ -11,9 +11,9 @@ const CoreValuesSection = () => {
             <div className={styles.title}>Core Value(အဓိကတန်ဖိုးထားမှုများ)</div>
             <div className={styles.textcontainer}>
                 <span>
-                    ဒုတိယရေသောက်မြစ် လူမှုကူညီရေးအဖွဲ့၏ အဓိကတန်ဖိုးထားမှုများမှာ အဖွဲ့အစည်း၏ ကြိုးပမ်းမှုအ၀၀ကို <br/>
-                    <center>လမ်းညွှန်သည့် အခြေခံအချက်အလက်များပင်ဖြစ်ပါသည်။</center>
+                    <center> ဒုတိယရေသောက်မြစ် လူမှုကူညီရေးအဖွဲ့၏ အဓိကတန်ဖိုးထားမှုများမှာ အဖွဲ့အစည်း၏ ကြိုးပမ်းမှုအ၀၀ကို  လမ်းညွှန်သည့် အခြေခံအချက်အလက်များပင်ဖြစ်ပါသည်။</center>
                 </span>
+                
             </div>
             <div className={styles.subcontainer}>
                <CoreValue 

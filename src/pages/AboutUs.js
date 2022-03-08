@@ -10,8 +10,8 @@ const AboutUs = () => {
         <Fragment>
             <Intro/>
             <VMGBlogs/>
-            {/* <CoreValuesSection/>
-            <Process/>
+            <CoreValuesSection/>
+            {/* <Process/>
             <Policy/> */}
         </Fragment >
      );
