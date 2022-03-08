@@ -1,13 +1,13 @@
-
-
 import { useRef, useState, useEffect } from "react";
 import styles from "./FeaturedVideo.module.css";
 import Carousel from "react-elastic-carousel";
 import { Player } from 'video-react'; 
 import "video-react/dist/video-react.css"; 
 
+import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
-function FeaturedVideo() {
+
+function FeaturedVideo({videos}) {
 
   const carouselRef = useRef(null);
 
@@ -38,47 +38,16 @@ function FeaturedVideo() {
         breakPoints={breakPoints}
         ref={carouselRef}
       >
-        <div className={styles.videocontainer}>
-          <Player
-            playsInline
-            poster="/assets/poster.png"
-            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-          />
-          
-        </div>
-        <div className={styles.videocontainer}>
-          <Player
-            playsInline
-            poster="/assets/poster.png"
-            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-          />
-        </div>
-        <div className={styles.videocontainer}>
-          <Player
-            playsInline
-            poster="/assets/poster.png"
-            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-          />
-        </div>
-        <div className={styles.videocontainer}>
-          <Player
-            playsInline
-            poster="/assets/poster.png"
-            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-          />
-        </div>
-          <Player
-            playsInline
-            poster="/assets/poster.png"
-            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-          />
-        <div className={styles.videocontainer}>
-          <Player
-            playsInline
-            poster="/assets/poster.png"
-            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-          />
-        </div>
+        {videos.map((video) => (
+          <div className={styles.videocontainer}>
+            <Player
+              playsInline
+              poster="/assets/poster.png"
+              src={video}
+              playIcon={<button>Play</button>}
+            />
+          </div>
+        ))}
       </Carousel>
     </div>
   ); 

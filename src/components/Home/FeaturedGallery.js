@@ -1,11 +1,8 @@
 import { useRef, useState, useEffect } from "react";
 import styles from "./FeaturedGallery.module.css";
 import Carousel from "react-elastic-carousel";
-import featuredphoto1 from '../../images/featuredphoto1.jpg';
-import featuredphoto2 from '../../images/featuredphoto2.jpg';
-import featuredphoto3 from '../../images/featuredphoto3.jpg';
 
-function FeaturedGallery() {
+function FeaturedGallery({galleries}) {
   let resetTimeout;
   const carouselRef = useRef(null);
 
@@ -47,23 +44,10 @@ function FeaturedGallery() {
         }}
       >
         
-          <img src={featuredphoto1} alt="featuredphoto" className={styles.photo}/>
-       
-       
-          <img src={featuredphoto2} alt="featuredphoto" className={styles.photo}/>
-        
-        
-          <img src={featuredphoto3} alt="featuredphoto" className={styles.photo}/>
-       
-       
-          <img src={featuredphoto1} alt="featuredphoto" className={styles.photo}/>
-       
-      
-          <img src={featuredphoto2} alt="featuredphoto" className={styles.photo}/>
-       
-        
-          <img src={featuredphoto3} alt="featuredphoto" className={styles.photo}/>
-        
+        {galleries.map((gallery) => (
+          <img src={gallery} alt="featuredphoto" className={styles.photo}/>  
+        ))}
+
       </Carousel>
     </div>
   ); 

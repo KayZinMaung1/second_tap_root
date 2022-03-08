@@ -35,10 +35,10 @@
   .seemore{
     background-color: #1F3E07;
     font-size: medium;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     color:#fff;
-    width: 200px;
-    margin-top: 20px; 
+    margin:10px 0px;
+    width:fit-content;
   }
   
   @media screen and (max-width: 1200px) {
@@ -53,11 +53,6 @@
     .title{
       font-size: large;
     }
-    .seemore{
-      width: 145px;
-      padding: 0.5rem 0.5rem;
-    }
-
   }
   @media screen and (max-width: 420px) {
     .img {
@@ -76,6 +71,5 @@
   
     .seemore{
       font-size: small;
-      width: 120px;
     }
   }

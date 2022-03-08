@@ -7,9 +7,9 @@ import featuredphoto3 from '../images/featuredphoto3.jpg';
 
 const GalleryPage = () => {
 const video1 ='https://media.w3.org/2010/05/sintel/trailer_hd.mp4';
+const videos = [video1,video1,video1,video1,video1,video1,video1,video1];
 
 const galleries = [featuredphoto1,featuredphoto2,featuredphoto3,featuredphoto1,featuredphoto2,featuredphoto3];
-const videos = [video1,video1,video1,video1,video1,video1,video1,video1];
 
     return ( 
       <Fragment>
