@@ -7,11 +7,13 @@ const VideoSection = ({videos}) => {
         <div className={styles.cardcontainer}>
         {videos.map((video) => (
         <div className={styles.card} >
-          <Player
-          playsInline
-          poster="/assets/poster.png"
-          src={video}
-          />
+          <div className={styles.video}> 
+            <Player
+            playsInline
+            poster="/assets/poster.png"
+            src={video}
+            />
+          </div>
           <div className={styles.textcontainer}>bla bla</div>
         </div>
       ))}

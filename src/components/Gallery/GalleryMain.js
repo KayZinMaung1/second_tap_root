@@ -15,13 +15,13 @@ const [isDocumentaryPhoto,setIsDocumentaryPhoto]=useState(true);
             onClick={(e) => setIsDocumentaryPhoto(true)} 
             className={isDocumentaryPhoto ? [styles.title, styles.active].join(" ") : styles.title}
           >
-          <h2>အမှတ်တရဓာတ်ပုံများ</h2>         
+          <span>အမှတ်တရဓာတ်ပုံများ</span>         
           </Link>
           <Link to=""  
             onClick={(e) => setIsDocumentaryPhoto(false)} 
             className={!isDocumentaryPhoto ? [styles.title, styles.active].join(" ") : styles.title}
           >
-          <h2>ဗွီဒီယိုများ</h2>         
+          <span>ဗွီဒီယိုများ</span>            
           </Link>
       </div>
       {isDocumentaryPhoto ? (

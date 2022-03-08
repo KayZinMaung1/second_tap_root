@@ -5,7 +5,7 @@ const PhotoSection = ({galleries}) => {
         <div className={styles.cardcontainer}>
         {galleries.map((gallery) => (
           <div className={styles.card} >
-            <img src={gallery} alt="Gallery" width={500} height={330} />
+            <img src={gallery} alt="Gallery" className={styles.photo} />
             <div className={styles.textcontainer}>bla bla</div>
           </div>
         ))}
