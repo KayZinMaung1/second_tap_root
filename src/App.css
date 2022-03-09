@@ -1,3 +1,5 @@
+@import '~video-react/dist/video-react.css';
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -37,4 +39,11 @@
 .rec.rec-dot_active {
   background-color: #1F3E07;
   box-shadow: none;
+}
+
+.video-react-button .video-react-big-play-button {
+  height: 1.5em  !important;
+  width: 2.5em  !important;
+  top: 40%  !important;
+  left: 40%  !important;
 }

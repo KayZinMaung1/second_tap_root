@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 132px;
+    position: relative;
+    background-color: #fff;
+    padding:1rem 0;
+  }
+  @media screen and (max-width: 530px) {
+    .container{
+      margin-top: 160px;
+    }
+  }

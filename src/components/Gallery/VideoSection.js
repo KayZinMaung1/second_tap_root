@@ -1,6 +1,5 @@
 import styles from './VideoSection.module.css';
 import { Player } from 'video-react'; 
-import "video-react/dist/video-react.css"; 
 
 const VideoSection = ({videos}) => {
     return ( 

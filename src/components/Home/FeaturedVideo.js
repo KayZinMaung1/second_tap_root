@@ -2,12 +2,9 @@ import { useRef, useState, useEffect } from "react";
 import styles from "./FeaturedVideo.module.css";
 import Carousel from "react-elastic-carousel";
 import { Player } from 'video-react'; 
-import "video-react/dist/video-react.css"; 
-
-import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 
 
-function FeaturedVideo({videos}) {
+function FeaturedVideo({featuredvideos}) {
 
   const carouselRef = useRef(null);
 
@@ -18,7 +15,6 @@ function FeaturedVideo({videos}) {
       setTotalPages(window.innerWidth >= 1119 ? 5 : 6);
     }
     window.addEventListener("resize", updateSize);
-
     updateSize();
 
     return () => {
@@ -38,13 +34,12 @@ function FeaturedVideo({videos}) {
         breakPoints={breakPoints}
         ref={carouselRef}
       >
-        {videos.map((video) => (
-          <div className={styles.videocontainer}>
+        {featuredvideos.map((video, index) => (
+          <div key={index} className={styles.videocontainer}>
             <Player
               playsInline
-              poster="/assets/poster.png"
-              src={video}
-              playIcon={<button>Play</button>}
+              poster={video.poster}
+              src={video.video}
             />
           </div>
         ))}

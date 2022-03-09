@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import styles from "./FeaturedGallery.module.css";
 import Carousel from "react-elastic-carousel";
 
-function FeaturedGallery({galleries}) {
+function FeaturedGallery({featuredgalleries}) {
   let resetTimeout;
   const carouselRef = useRef(null);
 
@@ -44,8 +44,8 @@ function FeaturedGallery({galleries}) {
         }}
       >
         
-        {galleries.map((gallery) => (
-          <img src={gallery} alt="featuredphoto" className={styles.photo}/>  
+        {featuredgalleries.map((gallery, index) => (
+          <img key={index} src={gallery.image} alt={gallery.description} className={styles.photo}/>  
         ))}
 
       </Carousel>

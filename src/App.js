@@ -4,10 +4,10 @@ import AboutUs from './pages/AboutUs';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-import Blogs from './pages/Blogs';
 import BlogDetails from './pages/BlogDetails';
 import GalleryPage from './pages/GalleryPage';
 import ContactUs from './pages/ContactUs';
+import BlogsPage from './pages/BlogsPage';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs" element={<BlogsPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/contactus" element={<ContactUs />} />
           
