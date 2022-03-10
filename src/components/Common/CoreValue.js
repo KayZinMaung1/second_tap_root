@@ -1,16 +1,16 @@
 import styles from "./CoreValue.module.css";
-const CoreValue = ({icon,title,description}) => {
+const CoreValue = ({corevalue}) => {
     return ( 
         <div className={styles.corevaluecontainer}>
                     <img
-                        src={icon}
+                        src={corevalue.icon}
                         alt="core value"
                         className={styles.corevalueicon}
                     />
-                    <div className={styles.corevaluetitle}>{title}</div>
+                    <div className={styles.corevaluetitle}>{corevalue.title}</div>
                     <div className={styles.description}>
                         <span>
-                            {description}
+                            {corevalue.description}
                         </span>
                     </div>
                 </div>
