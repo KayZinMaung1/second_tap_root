@@ -1,10 +1,10 @@
 import styles from './PhotoSection.module.css';
 const PhotoSection = ({galleries}) => {
-  console.log("PHoto section")
+
     return ( 
         <div className={styles.cardcontainer}>
-        {galleries.map((gallery) => (
-          <div className={styles.card} >
+        {galleries.map((gallery,index) => (
+          <div className={styles.card} key={index}>
             <img src={gallery.image} alt={gallery.description} className={styles.photo} />
             <div className={styles.textcontainer}>{gallery.description}</div>
           </div>

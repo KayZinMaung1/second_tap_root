@@ -8,10 +8,6 @@ import FeaturedVideo from '../components/Home/FeaturedVideo';
 import { getFeaturedBlogs, getFeaturedGalleries, getFeaturedVideos } from "../data/data";
 
 const Home = () => {
-    const video1 ='https://media.w3.org/2010/05/sintel/trailer_hd.mp4';
-    const videos = [video1,video1,video1,video1,video1,video1];
-
-    
     const featuredblogs = getFeaturedBlogs();
     const featuredgalleries = getFeaturedGalleries();
     const featuredvideos = getFeaturedVideos();

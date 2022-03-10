@@ -2,8 +2,8 @@ import { Fragment } from "react";
 import LeftBlog from "../Common/LeftBlog";
 import RightBlog from "../Common/RightBlog";
 
-
 function FeaturedBlogs({featuredblogs}) {
+    
     return (
         <Fragment>
                {featuredblogs.map((blog, index) => {
@@ -15,7 +15,6 @@ function FeaturedBlogs({featuredblogs}) {
                })}
         </Fragment>
     );
-        
 }
 
 export default FeaturedBlogs;

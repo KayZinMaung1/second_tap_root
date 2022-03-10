@@ -1,38 +1,24 @@
 import styles from './RelatedPosts.module.css';
-import featuredphoto1 from '../../images/featuredphoto1.jpg';
+import { getRelatedBlogs } from '../../data/data';
 
 const RelatedPosts = () => {
+    const relatedposts = getRelatedBlogs();
+
     return ( 
         <div className={styles.container}>
             <div className={styles.title}>Related Posts</div>
             <div className={styles.subcontainer}>
-                <div className={styles.blogcontainer}>
+                { relatedposts.map((blog,index) => (
+                <div className={styles.blogcontainer} key={index}>
                     <img
-                        src={featuredphoto1}
-                        alt="core value"
+                        src={blog.image}
+                        alt={blog.title}
                         className={styles.img}
                     />
-                    <p className={styles.subtitle}>ကလေးများဘ၀ပြည့်စုံရေး  လက်တွဲရင်းနှီးမြှပ်နှံပေး</p>
-                    <p className={styles.postingdate}>22/02/2022</p>
+                    <p className={styles.subtitle}>{blog.title}</p>
+                    <p className={styles.postingdate}>{blog.postingdate}</p>
                 </div>
-                <div className={styles.blogcontainer}>
-                    <img
-                        src={featuredphoto1}
-                        alt="core value"
-                        className={styles.img}
-                    />
-                    <p className={styles.subtitle}>ကလေးများဘ၀ပြည့်စုံရေး  လက်တွဲရင်းနှီးမြှပ်နှံပေး</p>
-                    <p className={styles.postingdate}>22/02/2022</p>
-                </div>
-                <div className={styles.blogcontainer}>
-                    <img
-                        src={featuredphoto1}
-                        alt="core value"
-                        className={styles.img}
-                    />
-                    <p className={styles.subtitle}>ကလေးများဘ၀ပြည့်စုံရေး  လက်တွဲရင်းနှီးမြှပ်နှံပေး</p>
-                    <p className={styles.postingdate}>22/02/2022</p>
-                </div>
+            ))}  
             </div>
         </div>
      );

@@ -21,7 +21,7 @@ function Policy() {
             <div className={styles.title}>ကျွန်ုပ်တို့၏ မူဝါဒများ</div>
             <div className={styles.textcontainer}>
                    <ul>
-                    {policy.map((content) => (<li>{content}</li>))}  
+                    {policy.map((content,index) => (<li key={index}>{content}</li>))}  
                    </ul>
                </div>
         </div>

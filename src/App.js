@@ -21,9 +21,7 @@ function App() {
           <Route path="/blogs" element={<BlogsPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/contactus" element={<ContactUs />} />
-          
-          <Route path="/blogdetails" element={<BlogDetails />} />
-      
+          <Route path="/blogs/:id" element={<BlogDetails/>}/>
         </Routes>
         <Footer/>
       </div>

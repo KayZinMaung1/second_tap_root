@@ -1,12 +1,13 @@
-import Blog from "../components/BlogDetails/Blog";
 import RelatedPosts from "../components/BlogDetails/RelatedPosts";
-import React, { Fragment } from 'react'
-
+import Blog from "../components/BlogDetails/Blog";
+import React, { Fragment } from 'react';
+import { useParams } from "react-router-dom";
 
 const BlogDetails = () => {
+    const {id} = useParams();
     return ( 
         <Fragment>
-            <Blog/>
+            <Blog id={id}/>
             <RelatedPosts/>
         </Fragment >
      );

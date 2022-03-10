@@ -48,7 +48,23 @@ const BLOGS = [
   }
 
   export function getFeaturedBlogs() {
-    return BLOGS.splice(BLOGS.length - 2, 2);
+    return BLOGS.filter(BLOG => BLOG.id > BLOGS.length-2 )
+  }
+
+  export function getBlog(id) {
+    return BLOGS.find(BLOG => BLOG.id == id);
+  }
+  export function getRelatedBlogs() {
+    var IDs = [];
+    var blogs = [];
+    while(IDs.length < 3){
+      var ID = Math.floor(Math.random() * BLOGS.length) + 1;
+      if(IDs.indexOf(ID) === -1) IDs.push(ID);
+    }
+    IDs.map(ID => (
+     blogs.push( BLOGS.find(BLOG => BLOG.id === ID ))
+    ))
+    return blogs;
   }
 
   const GALLERIES = [
@@ -88,7 +104,7 @@ const BLOGS = [
     return GALLERIES;
   }
   export function getFeaturedGalleries() {
-    return GALLERIES.splice(GALLERIES.length - 4, 4);
+    return GALLERIES.filter(GALLERY => GALLERY.id < 5 )
   }
 
   const VIDEOS = [
@@ -134,7 +150,7 @@ const BLOGS = [
     return VIDEOS;
   }
   export function getFeaturedVideos() {
-    return VIDEOS.splice(VIDEOS.length - 4, 4);
+    return VIDEOS.filter(VIDEO => VIDEO.id < 5 )
   }
   
   const COREVALUES = [

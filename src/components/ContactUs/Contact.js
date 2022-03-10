@@ -6,7 +6,6 @@ const Contact = () => {
         
             <div className={styles.contactuscontainer}>
                 <div className={styles.title}><center>CONTACT US</center></div>
-
                 <div className={styles.subcontainer}>
                     <div className={styles.textcontainer}>
                         <p className={styles.contact}>
