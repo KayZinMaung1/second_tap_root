@@ -9,11 +9,11 @@ const VideoSection = ({videos}) => {
           <div className={styles.video}> 
             <Player
             playsInline
-            poster="/assets/poster.png"
-            src={video}
+            poster={video.poster}
+            src={video.video}
             />
           </div>
-          <div className={styles.textcontainer}>bla bla</div>
+          <div className={styles.textcontainer}>{video.description}</div>
         </div>
       ))}
     </div>

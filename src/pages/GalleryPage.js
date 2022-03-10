@@ -1,16 +1,10 @@
 import { Fragment } from "react";
 import GalleryMain from "../components/Gallery/GalleryMain";
-import featuredphoto1 from '../images/featuredphoto1.jpg';
-import featuredphoto2 from '../images/featuredphoto2.jpg';
-import featuredphoto3 from '../images/featuredphoto3.jpg';
-
+import { getAllGalleries, getAllVideos } from "../data/data";
 
 const GalleryPage = () => {
-const video1 ='https://media.w3.org/2010/05/sintel/trailer_hd.mp4';
-const videos = [video1,video1,video1,video1,video1,video1,video1,video1];
-
-const galleries = [featuredphoto1,featuredphoto2,featuredphoto3,featuredphoto1,featuredphoto2,featuredphoto3];
-
+  const galleries = getAllGalleries();
+  const videos = getAllVideos();
     return ( 
       <Fragment>
         <GalleryMain galleries={galleries} videos={videos}/>
