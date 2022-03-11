@@ -5,15 +5,18 @@ import Policy from '../components/AboutUs/Policy';
 import Process from '../components/AboutUs/Process';
 import VMGBlogs from '../components/AboutUs/VMGBlogs';
 import { getCoreValues} from "../data/data";
+import  { useEffect } from 'react';
 
 const AboutUs = () => {
     const corevalues = getCoreValues();
-    
+
     return ( 
         <Fragment>
             <Intro/>
-            <VMGBlogs/>
-            <CoreValuesSection corevalues={corevalues}/>
+            <div id='VMGBlogs'>
+                <VMGBlogs />
+            </div>
+            <CoreValuesSection corevalues={corevalues} />
             <Process/>
             <Policy/>
         </Fragment >

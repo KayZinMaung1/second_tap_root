@@ -8,12 +8,6 @@ const Footer = () => {
                 <a href="https://www.facebook.com/" target="_blank">
                     <div className={styles.icon}><i className="fa-brands fa-facebook"></i></div>
                 </a>
-                <a href="https://web.telegram.org/z/" target="_blank">
-                    <div className={styles.icon}><i className="fa-brands fa-telegram"></i></div>
-                </a>
-                <a href="https://www.viber.com/en/" target="_blank">
-                <div className={styles.icon}><i className="fa-brands fa-viber"></i></div>
-                </a>
             </div>
             <div className={styles.subcontainer}>
                  <Link to="/aboutus" style={{textDecoration: 0}}>

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styles from './Navbar.module.css';
 import { Link } from "react-router-dom";
-import logo from '../../images/logo.jpg';
 import UpBar from "./UpBar";
 
 
@@ -18,7 +17,7 @@ const Navbar = () => {
             <nav className={styles.navbar}>
                 <Link to="/" className={styles.navtitle}>
                     <img
-                        src={logo}
+                        src='/images/logo.jpg'
                         alt="Second Tap Root"
                         className={styles.navlogo}
                     />

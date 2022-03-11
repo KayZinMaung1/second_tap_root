@@ -22,12 +22,6 @@ const UpBar = () => {
                 <a href="https://www.facebook.com/" target="_blank">
                     <FontAwesomeIcon icon={faFacebookSquare} className={styles.brandicon} />
                 </a>
-                <a href="https://web.telegram.org/z/" target="_blank">
-                    <FontAwesomeIcon icon={faTelegram} className={styles.brandicon} />
-                </a>
-                <a href="https://www.viber.com/en/" target="_blank">
-                    <FontAwesomeIcon icon={faViber} className={styles.brandicon} />
-                </a>
             </div>
         </div>
     );

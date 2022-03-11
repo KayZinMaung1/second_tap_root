@@ -1,8 +1,4 @@
 import ListBlog from "../Common/ListBlog";
-import visionimage from '../../images/visionimage.jpg';
-import missionimage from '../../images/missionimage.jpg';
-import goalimage from '../../images/goalimage.jpg';
-
 
 const VMGBlogs = () => {
     const vision = ['အေးချမ်းသာယာသောလူ့ဘောင်အဖွဲ့အစည်းတစ်ရပ် ပေါ်ပေါက်လာစေရန်။'];
@@ -13,21 +9,21 @@ const VMGBlogs = () => {
         <div>
            <ListBlog 
                 title="Vision(ရည်မှန်းချက်)"
-                image={visionimage}
+                image='/images/visionimage.jpg'
                 data={vision}
                 margintop='1px'
                
             />
             <ListBlog 
                 title="Mission(မျှော်မှန်းချက်)"
-                image={missionimage}
+                image='/images/missionimage.jpg'
                 data={mission}
                 margintop='0px'
                 
             />
             <ListBlog 
                 title="Goal(ပန်းတိုင်)"
-                image={goalimage}
+                image='/images/goalimage.jpg'
                 data={goal}
                 margintop='0px'
                 
