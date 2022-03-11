@@ -29,9 +29,11 @@
     font-size: medium;
     font-weight: bold;
     padding:10px 0;
+    color:black;
   }
   .postingdate{
     padding-bottom: 10px;
+    color:black;
   }
   @media screen and (max-width: 1200px) {
     .container{

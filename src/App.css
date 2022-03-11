@@ -41,9 +41,3 @@
   box-shadow: none;
 }
 
-.video-react-button .video-react-big-play-button {
-  height: 1.5em  !important;
-  width: 2.5em  !important;
-  top: 40%  !important;
-  left: 40%  !important;
-}

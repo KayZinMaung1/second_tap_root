@@ -8,6 +8,7 @@ import { getCoreValues} from "../data/data";
 
 const AboutUs = () => {
     const corevalues = getCoreValues();
+    
     return ( 
         <Fragment>
             <Intro/>

@@ -2,6 +2,8 @@ import styles from './RightBlog.module.css';
 import { Link } from "react-router-dom";
 
 const RightBlog = ({ blog, marginTop }) => {
+    const description = blog.description;
+    const sampledescription = description.substring(0,350)+ '...';
     return (
         <div className={styles.container} style={{ marginTop: marginTop }} key={blog.id}>
             <div>
@@ -10,7 +12,7 @@ const RightBlog = ({ blog, marginTop }) => {
             <div className={styles.textcontainer}>
                 <p className={styles.title}>{blog.title}</p>
                 <p className={styles.postingdate}>{blog.postingdate}</p>
-                <p className={styles.description}>{blog.description}</p>
+                <p className={styles.description}>{sampledescription}</p>
                 <Link to={`/blogs/${blog.id}`} style={{textDecoration: 0}}>
                     <div className={styles.seemore}>
                         ဆက်လက်ဖတ်ရှုရန်

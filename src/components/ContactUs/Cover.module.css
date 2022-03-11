@@ -37,7 +37,7 @@
 }
 @media screen and (max-width: 530px) {
     .coverphoto {
-        height: 250px;
+        height: 200px;
     }
     .covertext{
         font-size: large;

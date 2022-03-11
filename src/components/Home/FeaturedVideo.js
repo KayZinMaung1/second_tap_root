@@ -35,13 +35,9 @@ function FeaturedVideo({featuredvideos}) {
         ref={carouselRef}
       >
         {featuredvideos.map((video, index) => (
-          <div key={index} className={styles.videocontainer}>
-            <Player
-              playsInline
-              poster={video.poster}
-              src={video.video}
-            />
-          </div>
+             <video controls className={styles.video}  key={index} poster={video.poster}>
+                <source src={video.video} type="video/mp4"/>
+             </video>
         ))}
       </Carousel>
     </div>
