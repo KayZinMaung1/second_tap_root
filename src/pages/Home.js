@@ -11,7 +11,13 @@ const Home = () => {
     const featuredblogs = getFeaturedBlogs();
     const featuredgalleries = getFeaturedGalleries();
     const featuredvideos = getFeaturedVideos();
-
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      };
+    scrollToTop();
     return (
         <Fragment>
             <Cover />

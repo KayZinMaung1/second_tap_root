@@ -2,6 +2,7 @@ import styles from "./VisionMissionGoal.module.css";
 import { Link } from "react-router-dom";
 
 const VisionMissionGoal = () => {
+    
     return ( 
         <div className={styles.container}>
              <div className={styles.title}>OUR VISION , MISSION , GOAL</div>
@@ -9,21 +10,21 @@ const VisionMissionGoal = () => {
              <div className={styles.subcontainer}>
                 <div className={styles.imagecontainer}>
                     <img src='/images/visionimage.jpg' alt="vision" className={styles.img} />
-                    <a href='http://localhost:3000/aboutus#VMGBlogs'>
+                    <Link to='/aboutus/vision' >
                         <div className={styles.text}>Vission</div>
-                    </a>
+                    </Link>
                 </div>
                 <div className={styles.imagecontainer}>
                     <img src='/images/missionimage.jpg' alt="mission" className={styles.img} />
-                    <a href='http://localhost:3000/aboutus#VMGBlogs'>
+                    <Link to='/aboutus/mission' >
                         <div className={styles.text}>Mission</div>
-                    </a>
+                    </Link>
                 </div>
                 <div className={styles.imagecontainer}>
                     <img src='/images/goalimage.jpg' alt="goal" className={styles.img} />
-                    <a href='http://localhost:3000/aboutus#VMGBlogs'>
+                    <Link to='/aboutus/goal' >
                         <div className={styles.text}>Goal</div>
-                    </a>
+                    </Link>
                 </div>
             </div>
            

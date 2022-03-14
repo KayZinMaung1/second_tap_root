@@ -2,6 +2,13 @@ import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+    
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      };
     return ( 
         <footer className={styles.footer}>
             <div className={styles.subcontainer}>
@@ -26,7 +33,7 @@ const Footer = () => {
             <hr className={styles.line}></hr>
             <div className={styles.subcontainer}>
                 <div className={styles.text}>All Rights Reserved by Second Tap Root</div>
-                <div className={styles.upicon}><i className="fa-solid fa-angle-up"></i></div>
+                <div className={styles.upicon}  onClick={scrollToTop}><i className="fa-solid fa-angle-up"></i></div>
             </div>
         </footer>
      );

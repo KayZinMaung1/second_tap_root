@@ -5,6 +5,13 @@ import { useParams } from "react-router-dom";
 
 const BlogDetails = () => {
     const {id} = useParams();
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      };
+    scrollToTop();
     return ( 
         <Fragment>
             <Blog id={id}/>

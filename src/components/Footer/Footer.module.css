@@ -40,7 +40,6 @@
     border-radius: 2px;
     margin-left: 2rem;
     margin-top:0.3rem;
-    display: none;
 }
 @media screen and (max-width: 1200px) {
     .footer {

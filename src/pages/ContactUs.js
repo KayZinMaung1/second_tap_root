@@ -4,6 +4,13 @@ import React, { Fragment } from 'react'
 
 
 const ContactUs = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      };
+    scrollToTop();
     return ( 
         <Fragment>
             <Cover/>
