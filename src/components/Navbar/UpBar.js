@@ -1,7 +1,7 @@
 import styles from './UpBar.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookSquare, faTelegram, faViber } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 
 const UpBar = () => {
     return (
@@ -10,7 +10,7 @@ const UpBar = () => {
             <div className={styles.subcontainer1}>
                 <div className={styles.componentcontainer}>
                     <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />
-                    <div className={styles.text}>second tap root@gmail.com</div>
+                    <div className={styles.text}>secondtaproot@gmail.com</div>
                 </div>
                 <div className={styles.sperator}> | </div>
                 <div className={styles.componentcontainer}>
@@ -19,7 +19,7 @@ const UpBar = () => {
                 </div>
             </div>
             <div className={styles.subcontainer2}>
-                <a href="https://www.facebook.com/" target="_blank">
+                <a href="https://www.facebook.com/Second-Tap-Root-447073468698841/" target="_blank">
                     <FontAwesomeIcon icon={faFacebookSquare} className={styles.brandicon} />
                 </a>
             </div>

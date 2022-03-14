@@ -20,7 +20,7 @@ const Contact = () => {
                     </div>
                     <div className={styles.textcontainer}>
                         <p className={styles.contact}>
-                            <i className="fa-solid fa-envelope"/><span className={styles.contacttext}>youremail@gmail.com</span>
+                            <i className="fa-solid fa-envelope"/><span className={styles.contacttext}>secondtaproot@gmail.com</span>
                         </p>
                         <p className={styles.contact}>
                             <i className="fa-brands fa-telegram"/><span className={styles.contacttext}>+959 123 456 789</span>
